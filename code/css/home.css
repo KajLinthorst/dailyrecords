@@ -1,0 +1,67 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-size: 62.5%;
+    
+}
+
+.whiteTop{
+    background-color: white;
+    height: 3.5rem;
+}
+
+.whiteTop > h2{
+
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.8rem;
+}
+
+.mainInfo{
+    height: 100vh;
+    
+    background-color: red;
+}
+
+nav {
+    height: 20vh;
+    width: 80vw;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+    padding-left: 4.5rem;
+}
+
+h2 {
+    display: inline; 
+    padding-right: 2rem;
+
+}
+
+.button-container {
+    display: inline-block; 
+
+}
+
+.button-container a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+    margin-right: 1rem; 
+}
+
+.button-container a button {
+    border: none;
+    background: none;
+    padding: 1.5rem 2.2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.button-container a :hover{
+    cursor: pointer;
+}
