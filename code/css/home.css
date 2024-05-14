@@ -22,23 +22,30 @@
 }
 
 .mainInfo{
-    height: 100vh;
+    height: 95.2vh;
     
-    background-color: red;
+    background-image: url("../img/vinyl-disk-image.jpg");
+
 }
 
 nav {
     height: 20vh;
     width: 80vw;
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding-top: 0.5rem;
     padding-left: 4.5rem;
+
+    color: white;
+    
 }
 
-h2 {
+nav > h2 {
     display: inline; 
     padding-right: 2rem;
 
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .button-container {
@@ -50,18 +57,39 @@ h2 {
     text-decoration: none;
     color: inherit;
     cursor: default;
-    margin-right: 1rem; 
+     
 }
 
 .button-container a button {
     border: none;
     background: none;
-    padding: 1.5rem 2.2rem;
+    padding: 1.4rem 1.5rem;
+
     text-align: center;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .button-container a :hover{
     cursor: pointer;
+}
+
+.slogunLandingpage{
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+    padding: 4.35rem;
+    padding-top: 25rem;
+    padding-left: 8rem;
+}
+
+.slogunLandingpage > div{
+    font-style: italic;
+    font-size: 2rem;
 }
