@@ -154,7 +154,232 @@ h3 {
     background-color: rgb(33, 130, 33);
 }
 
-.homepageStack{
+.homepageStack {
     height: 60rem;
     background-color: rgb(168, 168, 168);
+}
+
+footer {
+    height: 30rem;
+    background-color: rgb(0, 0, 0);
+    padding: 2.4rem;
+    padding-top: 5rem;
+}
+
+
+
+.footerContainer {
+    display: flex;
+    max-height: 80rem;
+    /* Ensures the container does not exceed 80rem in height */
+}
+
+.footerLeft,
+.footerRight {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    /* Ensures padding and border are included in the element's total width and height */
+}
+
+.newsLetterFooter {
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.newsLetterPfooter {
+    color: white;
+    font-weight: 400;
+    font-size: 1.4rem;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footerForm {
+    color: white;
+    font-weight: 400;
+    font-size: 3rem;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footerForm input[type="radio"] {
+    appearance: none;
+    background-color: rgb(47, 47, 47);
+    border: 0.1rem solid rgb(47, 47, 47);
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    margin-right: 0.8rem;
+    transition: border 0.3s;
+}
+
+.footerForm input[type="radio"]::before {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 0.8rem;
+    ;
+    height: 0.8rem;
+    margin: 3.3px;
+    transition: background-color 0.3s;
+}
+
+.footerForm input[type="radio"]:checked::before {
+    background-color: white;
+}
+
+.footerForm input[type="radio"]:hover {
+    border: 0.1rem solid white;
+}
+
+
+.footerForm input[type="text"] {
+    background-color: rgb(47, 47, 47);
+    border: none;
+    border-radius: 2.5rem;
+    padding: 0rem 0rem 0rem 1.6rem;
+    width: 36.6rem;
+    height: 4.4rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+
+    color: rgb(255, 255, 255);
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+
+.footerForm input[type="submit"] {
+    background-color: rgb(47, 47, 47);
+    color: white;
+    border: none;
+    border-radius: 2.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.footerForm .genderSel {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+
+.footerForm input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.footerRight {
+    display: flex;
+}
+
+.footerRight>li {
+    width: 50%;
+}
+
+.footerRight>li>h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+.footerLink {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.6rem;
+
+}
+
+.footerLinkLong {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.6rem;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.footerBottom {
+    height: 6rem;
+
+
+    outline: white;
+    background-color: black;
+    border-top: 0.1rem solid rgb(66, 66, 66);
+
+}
+
+.footerBottom {
+    display: flex;
+}
+
+.footerBottom>.footerBottomLeft {
+    height: 5.8vh;
+    width: 70%;
+
+
+}
+
+.footerBottom>.footerBottomRight {
+    height: 5.8vh;
+    width: 30%;
+
+    color: white;
+    text-align: left;
+
+    font-size: 2rem;
+    color: #8b8b8b;
+    margin-top: 1.8rem;
+    width: 50vw;
+}
+
+.footerWaypoint,
+.footerLanguage {
+    color: #8b8b8b;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    font-size: 1.5rem;
+    padding-right: 2rem;
+
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.footerWaypoint:hover,
+.footerLanguage:hover {
+    color: #cecece;
+
 }
