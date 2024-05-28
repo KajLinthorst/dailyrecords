@@ -159,6 +159,109 @@ h3 {
     background-color: rgb(168, 168, 168);
 }
 
+.picturesHomepageStack{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.saleCardQueen {
+    width: 25vw;
+    height: 65vh;
+
+    margin-top: 4%;
+    border-radius: 1rem;
+    transition: transform 0.3s;
+
+    background-image: url("../img/records/newsoftheworld-queen.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.saleCardInhaler {
+    width: 25vw;
+    height: 65vh;
+
+    margin-top: 4%;
+    border-radius: 1rem;
+    transition: transform 0.3s;
+
+    background-image: url("../img/records/cutsandbruises-inhaler.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.saleCardTyler {
+    width: 25vw;
+    height: 65vh;
+
+    margin-top: 4%;
+    border-radius: 1rem;
+    transition: transform 0.3s;
+
+    background-image: url("../img/records/flowerboy-tylerthecreator.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.saleCard:hover, .saleCardQueen:hover,.saleCardInhaler:hover,.saleCardTyler:hover {
+    transform: scale(1.01);
+}
+
+
+.saleText{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-left: 1.5rem;
+
+}
+.salePic{
+    max-width: 35vw;
+    max-height: 48vh;
+
+    display: flex;
+    justify-content: center;
+    
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+
+}
+
+.saleText {
+    background: radial-gradient(circle, rgba(42,42,42,1) 40%, rgba(0,0,0,1) 100%);
+    height: 15vh;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.saleText > h2{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.saleButton {
+    width: 12vw;
+    height: 8vh;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+
+    margin-top: 1rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(41, 150, 41);
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 footer {
     height: 30rem;
     background-color: rgb(0, 0, 0);
@@ -274,7 +377,6 @@ footer {
     padding-right: 1rem;
 }
 
-
 .footerForm input[type="submit"]:hover {
     background-color: #333;
 }
@@ -381,5 +483,21 @@ button:hover {
 .footerWaypoint:hover,
 .footerLanguage:hover {
     color: #cecece;
+
+}
+
+.location-icon {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(86deg) brightness(119%) contrast(119%);
+}
+
+.england-icon {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
 
 }
