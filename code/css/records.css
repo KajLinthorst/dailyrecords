@@ -1,0 +1,171 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+nav {
+    height: 10vh;
+    width: 80vw;
+    font-size: 3.5rem;
+    padding-top: 0.5rem;
+    padding-left: 4.5rem;
+
+    flex-basis: 100%;
+    color: rgb(0, 0, 0);
+
+}
+
+nav>h2 {
+    display: inline;
+    padding-right: 2rem;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.button-container {
+    display: inline-block;
+
+}
+
+.button-container a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+}
+
+.button-container a button {
+    border: none;
+    background: none;
+    padding: 1.4rem 1.5rem;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.button-container a :hover {
+    cursor: pointer;
+}
+
+.sortList {
+    background-color: rgb(153, 153, 153);
+    border-radius: 2rem;
+    width: 21rem;
+    height: 70vh;
+    padding: 1rem;
+    margin-left: 0.5rem;
+    display: inline-block;
+}
+
+.recordStock {
+    width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: top;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+
+    padding: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.saleCard {
+    width: 20vw;
+    border-radius: 1rem;
+    transition: transform 0.3s;
+    position: relative;
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.8);
+    margin: 1rem;
+}
+
+.card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0.4rem);
+    border-radius: 1rem;
+    z-index: -1;
+}
+
+.saleText>h3 {
+    font-size: 2.3rem;
+    position: absolute;
+    right: 1.9rem;
+    bottom: 2.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.saleCard:hover {
+    transform: scale(1.01);
+}
+
+.saleText {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-left: 1.5rem;
+
+}
+
+.salePic {
+    max-width: 40vw;
+    max-height: 37.5vh;
+
+    display: flex;
+    justify-content: center;
+
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+
+}
+
+.saleText {
+    background: radial-gradient(circle, rgba(42, 42, 42, 1) 40%, rgba(0, 0, 0, 1) 100%);
+    height: 15vh;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.saleText>h2 {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.saleButton {
+    width: 12vw;
+    height: 8vh;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+
+    margin-top: 0.2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(41, 150, 41);
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

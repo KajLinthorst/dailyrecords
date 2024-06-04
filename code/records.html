@@ -1,19 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Records | Lijst</title>
-    
-    <script src="js/core.js" defer></script>
-    <link rel="stylesheet" href="css/lijst.css">
+    <meta name="description"
+        content="Daily Records is website that sells records. Famous records from bands like Queen, The Stone Roses and David Bowie can be bought here.">
+    <meta name="keywords" content="records, vinyl, music, albums, Queen, The Stone Roses, David Bowie">
+    <title>Daily Records | Home</title>
+
+    <link rel="stylesheet" href="css/records.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    Records pagina
+
+    <nav>
+        <h2>DAILY RECORDS</h2>
+        <div class="button-container">
+            <a href="records.html">
+                <button>Records</button>
+            </a>
+            <a href="sortlijst.html">
+                <button>Sort</button>
+            </a>
+            <a href="checkout.html">
+                <button>Checkout</button>
+            </a>
+        </div>
+    </nav>
+    <div class="sortList">
+        <ul class="sortButtons">
+            <input type="search">
+            <li><input class="filterCheckbox" type="checkbox">Prices</li>
+            <li><input class="filterCheckbox" type="checkbox">Filter 1</li>
+            <li><input class="filterCheckbox" type="checkbox">Filter 2</li>
+            <li><button>Checkout</button></li>
+        </ul>
+    </div>
+
+    <div class="recordStock">
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/newsoftheworld-queen.jpg" 
+            data-img="img/records/newsoftheworld-queen.jpg">
+            <section class="saleText">
+                <h2>NEWS OF THE WORLD - QUEEN</h2>
+                <h3>€30,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/thesmiths-thesmiths.jpg" 
+            data-img="img/records/thesmiths-thesmiths.jpg">
+            <section class="saleText">
+                <h2>THE SMITHS - THE SMITHS</h2>
+                <h3>€34,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/cutsandbruises-inhaler.jpg" 
+            data-img="img/records/cutsandbruises-inhaler.jpg">
+            <section class="saleText">
+                <h2>CUTS & BRUISES - INHALER</h2>
+                <h3>€29,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/inrainbows-radiohead.jpg" 
+            data-img="img/records/inrainbows-radiohead.jpg">
+            <section class="saleText">
+                <h2>IN RAINBOWS - RADIOHEAD</h2>
+                <h3>€24,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/flowerboy-tylerthecreator.jpg"
+                data-img="img/records/flowerboy-tylerthecreator.jpg">
+            <section class="saleText">
+                <h2>FLOWER BOY - TYLER THE CREATOR</h2>
+                <h3>€39,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/differentclass-pulp.jpg"
+                data-img="img/records/differentclass-pulp.jpg">
+            <section class="saleText">
+                <h2>DIFFERENT CLASS - PULP</h2>
+                <h3>€24,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/thenewabnormal-thestrokes.jpg"
+                data-img="img/records/thenewabnormal-thestrokes.jpg">
+            <section class="saleText">
+                <h2>THE NEW ABNORMAL - THE STROKES</h2>
+                <h3>€29,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/grace-jeffbuckley.jpg"
+                data-img="img/records/grace-jeffbuckley.jpg">
+            <section class="saleText">
+                <h2>GRACE - JEFF BUCKLEY</h2>
+                <h3>€30,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+       
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/madeinheaven-queen.jpg"
+                data-img="img/records/madeinheaven-queen.jpg">
+            <section class="saleText">
+                <h2>MADE IN HEAVEN - QUEEN</h2>
+                <h3>€49,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+    
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/favouriteworstnightmare-arcticmonkeys.jpg"
+                data-img="img/records/favouriteworstnightmare-arcticmonkeys.jpg">
+            <section class="saleText">
+                <h2>FAVOURITE WORST NIGHTMARE - ARCTIC MONKEYS</h2>
+                <h3>€24,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>
+        
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/apricotprincess-rexorangecounty.jpg"
+                data-img="img/records/apricotprincess-rexorangecounty.jpg">
+            <section class="saleText">
+                <h2>APRICOT PRINCESS - REX ORANGE COUNTY</h2>
+                <h3>€28,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>     
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/thestoneroses-thestoneroses.jpg"
+                data-img="img/records/thestoneroses-thestoneroses.jpg">
+            <section class="saleText">
+                <h2>THE STONE ROSES - THE STONE ROSES</h2>
+                <h3>€24,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/darksideofthemoon-pinkfloyd.jpg"
+                data-img="img/records/darksideofthemoon-pinkfloyd.jpg">
+            <section class="saleText">
+                <h2>DARK SIDE OF THE MOON - PINK FLOYD</h2>
+                <h3>€24,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/queenII-queen.jpg"
+                data-img="img/records/queenII-queen.jpg">
+            <section class="saleText">
+                <h2>QUEEN II - QUEEN</h2>
+                <h3>€49,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
+        <article class="saleCard">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/sheerheartattack-queen.jpg"
+                data-img="img/records/sheerheartattack-queen.jpg">
+            <section class="saleText">
+                <h2>SHEER HEART ATTACK - QUEEN</h2>
+                <h3>€29,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+    <script>
+        const saleCards = document.querySelectorAll('.saleCard');
+        saleCards.forEach(card => {
+            const img = card.querySelector('.salePic');
+            const imgUrl = img.getAttribute('data-img');
+            const cardBackground = card.querySelector('.card-background');
+            cardBackground.style.backgroundImage = `url("${imgUrl}")`;
+        });
+    </script>
 </body>
-</html>
