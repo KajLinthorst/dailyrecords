@@ -36,13 +36,18 @@ nav {
 
 }
 
-nav>h2 {
+nav>a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>a>h2 {
     display: inline;
     padding-right: 2rem;
 
-
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .button-container {

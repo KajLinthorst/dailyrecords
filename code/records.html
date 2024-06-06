@@ -10,7 +10,7 @@
     <title>Daily Records | Home</title>
 
     <link rel="stylesheet" href="css/records.css">
-
+    <script src="js/core.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -20,7 +20,9 @@
 <body>
 
     <nav>
-        <h2>DAILY RECORDS</h2>
+        <a href="index.html">
+            <h2>DAILY RECORDS</h2>
+        </a>
         <div class="button-container">
             <a href="records.html">
                 <button>Records</button>
@@ -35,17 +37,46 @@
     </nav>
     <div class="sortList">
         <ul class="sortButtons">
-            <input type="search">
-            <li><input class="filterCheckbox" type="checkbox">Prices</li>
-            <li><input class="filterCheckbox" type="checkbox">Filter 1</li>
-            <li><input class="filterCheckbox" type="checkbox">Filter 2</li>
-            <li><button>Checkout</button></li>
+            <h3 class="searchBarText">Search for a Record or Artist!</h3>
+            <input class="searchBar" type="search">
+            <h3 class="searchBarText">Filters</h3>
+            <li>
+                <input class="filterCheckbox" type="checkbox" data-genre="rock" id="rockCheckbox">
+                <label for="rockCheckbox">
+                    <h2 class="checkboxText">Rock</h2>
+                </label>
+            </li>
+            <li>
+                <input class="filterCheckbox" type="checkbox" data-genre="alternative" id="alternativeCheckbox">
+                <label for="alternativeCheckbox">
+                    <h2 class="checkboxText">Alternative</h2>
+                </label>
+            </li>
+            <li>
+                <input class="filterCheckbox" type="checkbox" data-genre="indie" id="indieCheckbox">
+                <label for="indieCheckbox">
+                    <h2 class="checkboxText">Indie</h2>
+                </label>
+            </li>
+            <li>
+                <input class="filterCheckbox" type="checkbox" data-genre="rap" id="rapCheckbox">
+                <label for="rapCheckbox">
+                    <h2 class="checkboxText">Rap</h2>
+                </label>
+            </li>
+            <li>
+                <input class="filterCheckbox" type="checkbox" data-genre="pop" id="popCheckbox">
+                <label for="popCheckbox">
+                    <h2 class="checkboxText">Pop</h2>
+                </label>
+            </li>
         </ul>
     </div>
 
+
     <div class="recordStock">
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="rock">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/newsoftheworld-queen.jpg" 
             data-img="img/records/newsoftheworld-queen.jpg">
@@ -56,7 +87,7 @@
             </section>
         </article>
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="alternative index">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/thesmiths-thesmiths.jpg" 
             data-img="img/records/thesmiths-thesmiths.jpg">
@@ -67,7 +98,7 @@
             </section>
         </article>
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="alternative indie">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/cutsandbruises-inhaler.jpg" 
             data-img="img/records/cutsandbruises-inhaler.jpg">
@@ -78,7 +109,7 @@
             </section>
         </article>
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="alternative">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/inrainbows-radiohead.jpg" 
             data-img="img/records/inrainbows-radiohead.jpg">
@@ -89,7 +120,7 @@
             </section>
         </article>
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="rap pop">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/flowerboy-tylerthecreator.jpg"
                 data-img="img/records/flowerboy-tylerthecreator.jpg">
@@ -100,7 +131,7 @@
             </section>
         </article>
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="indie rock pop">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/differentclass-pulp.jpg"
                 data-img="img/records/differentclass-pulp.jpg">
@@ -111,7 +142,7 @@
             </section>
         </article>
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="indie">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/thenewabnormal-thestrokes.jpg"
                 data-img="img/records/thenewabnormal-thestrokes.jpg">
@@ -122,7 +153,7 @@
             </section>
         </article>
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="alternative">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/grace-jeffbuckley.jpg"
                 data-img="img/records/grace-jeffbuckley.jpg">
@@ -133,7 +164,7 @@
             </section>
         </article>
        
-        <article class="saleCard">
+        <article class="saleCard" data-genre="rock">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/madeinheaven-queen.jpg"
                 data-img="img/records/madeinheaven-queen.jpg">
@@ -144,7 +175,7 @@
             </section>
         </article>
     
-        <article class="saleCard">
+        <article class="saleCard" data-genre="indie">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/favouriteworstnightmare-arcticmonkeys.jpg"
                 data-img="img/records/favouriteworstnightmare-arcticmonkeys.jpg">
@@ -155,7 +186,7 @@
             </section>
         </article>
         
-        <article class="saleCard">
+        <article class="saleCard" data-genre="indie alternative">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/apricotprincess-rexorangecounty.jpg"
                 data-img="img/records/apricotprincess-rexorangecounty.jpg">
@@ -164,9 +195,20 @@
                 <h3>€28,99</h3>
                 <button class="saleButton">Purchase</button>
             </section>
-        </article>     
+        </article>    
+        
+        <article class="saleCard" data-genre="rap">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/therevelations-eminem.jpg"
+                data-img="img/records/therevelations-eminem.jpg">
+            <section class="saleText">
+                <h2>THE REVELATIONS - EMINEM</h2>
+                <h3>€39,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>    
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="alternative rock">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/thestoneroses-thestoneroses.jpg"
                 data-img="img/records/thestoneroses-thestoneroses.jpg">
@@ -177,7 +219,7 @@
             </section>
         </article>  
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="alternative">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/darksideofthemoon-pinkfloyd.jpg"
                 data-img="img/records/darksideofthemoon-pinkfloyd.jpg">
@@ -188,7 +230,7 @@
             </section>
         </article>  
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="rock">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/queenII-queen.jpg"
                 data-img="img/records/queenII-queen.jpg">
@@ -199,7 +241,18 @@
             </section>
         </article>  
 
-        <article class="saleCard">
+        <article class="saleCard" data-genre="pop">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/parachutes-coldplay.jpg"
+                data-img="img/records/parachutes-coldplay.jpg">
+            <section class="saleText">
+                <h2>PARACHUTES - COLDPLAY</h2>
+                <h3>€29,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
+        <article class="saleCard" data-genre="rock">
             <div class="card-background"></div>
             <img class="salePic" src="img/records/sheerheartattack-queen.jpg"
                 data-img="img/records/sheerheartattack-queen.jpg">
@@ -209,6 +262,51 @@
                 <button class="saleButton">Purchase</button>
             </section>
         </article>  
+
+        <article class="saleCard" data-genre="rap">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/getrichordietrying-50cent.jpg"
+                data-img="img/records/getrichordietrying-50cent.jpg">
+            <section class="saleText">
+                <h2>GET RICH OR DIE TRYING - 50 CENT</h2>
+                <h3>€29,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
+        <article class="saleCard" data-genre="pop">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/futurenostalgia-dualipa.jpg"
+                data-img="img/records/futurenostalgia-dualipa.jpg">
+            <section class="saleText">
+                <h2>FUTURE NOSTALGIA - DUA LIPA</h2>
+                <h3>€39,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
+        <article class="saleCard" data-genre="rap">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/thesearch-nf.jpg"
+                data-img="img/records/thesearch-nf.jpg">
+            <section class="saleText">
+                <h2>THE SEARCH - NF</h2>
+                <h3>€24,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
+        <article class="saleCard" data-genre="pop">
+            <div class="card-background"></div>
+            <img class="salePic" src="img/records/harryshouse-harrystyles.jpg"
+                data-img="img/records/harryshouse-harrystyles.jpg">
+            <section class="saleText">
+                <h2>HARRY'S HOUSE - HARRY STYLE</h2>
+                <h3>€24,99</h3>
+                <button class="saleButton">Purchase</button>
+            </section>
+        </article>  
+
     <script>
         const saleCards = document.querySelectorAll('.saleCard');
         saleCards.forEach(card => {

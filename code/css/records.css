@@ -4,33 +4,65 @@
     font-size: 62.5%;
 }
 
-body{
+body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    background: linear-gradient(45deg, #0000 calc(25%/3), #a3a3a3 0 calc(50%/3),
+            #0000 0 calc(250%/3), #a3a3a3 0 calc(275%/3),
+            #0000 0), linear-gradient(45deg, #a3a3a3 calc(25%/3), #0000 0 calc(50%/3),
+            #a3a3a3 0 25%, #0000 0 75%,
+            #a3a3a3 0 calc(250%/3), #0000 0 calc(275%/3),
+            #a3a3a3 0),
+        linear-gradient(-45deg, #0000 calc(25%/3), #a3a3a3 0 calc(50%/3),
+            #0000 0 calc(250%/3), #a3a3a3 0 calc(275%/3),
+            #0000 0), linear-gradient(-45deg, #a3a3a3 calc(25%/3), #0000 0 calc(50%/3),
+            #a3a3a3 0 25%, #0000 0 75%,
+            #a3a3a3 0 calc(250%/3), #0000 0 calc(275%/3),
+            #a3a3a3 0) #ffffff;
+    background-size: 4rem 4rem;
+    background-position: 0 0, 2rem 2rem;
+    backdrop-filter: blur(0.2rem);
+    animation: moveBackground 10s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0, 2rem 2rem;
+    }
+
+    100% {
+        background-position: 4rem 4rem, 6rem 6rem;
+    }
 }
 nav {
-    height: 10vh;
+    height: 7vh;
     width: 80vw;
     font-size: 3.5rem;
     padding-top: 0.5rem;
     padding-left: 4.5rem;
+    background: white;
 
     flex-basis: 100%;
     color: rgb(0, 0, 0);
 
 }
 
-nav>h2 {
-    display: inline;
-    padding-right: 2rem;
-
-
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+nav>a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
 }
 
+nav>a>h2 {
+    display: inline;
+    padding-right: 2rem;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
 .button-container {
     display: inline-block;
 
@@ -61,12 +93,13 @@ nav>h2 {
 }
 
 .sortList {
-    background-color: rgb(153, 153, 153);
+    margin-top: 2rem;
+    background-color: rgb(245, 245, 245);
     border-radius: 2rem;
     width: 21rem;
-    height: 70vh;
+    height: 35vh;
     padding: 1rem;
-    margin-left: 0.5rem;
+    margin-left: -17rem;
     display: inline-block;
 }
 
@@ -75,7 +108,6 @@ nav>h2 {
     display: flex;
     flex-wrap: wrap;
     vertical-align: top;
-    border: 0.1rem solid #ccc;
     border-radius: 0.5rem;
 
     padding: 1rem;
@@ -88,10 +120,15 @@ li {
 .saleCard {
     width: 20vw;
     border-radius: 1rem;
-    transition: transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s; 
     position: relative;
     box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.8);
     margin: 1rem;
+    opacity: 1; 
+}
+
+.saleCard.hidden {
+    opacity: 0; 
 }
 
 .card-background {
@@ -157,9 +194,9 @@ li {
     height: 8vh;
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
 
-    margin-top: 0.2rem;
+    margin-top: 1.4rem;
     border: none;
     border-radius: 2rem;
     background-color: rgb(41, 150, 41);
@@ -168,4 +205,69 @@ li {
     color: white;
     font-weight: 600;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -1rem;
+    right: 1rem;
+}
+
+
+.searchBarText{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.searchBar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-style: italic;
+    content: "Search for Artist or Record";
+    color: black;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.filterCheckbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+}
+
+.checkboxText {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filterCheckbox:checked {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+.filterCheckbox:checked::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 3px;
 }
