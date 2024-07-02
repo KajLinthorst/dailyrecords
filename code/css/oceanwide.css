@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("//dailypaperclothing.com/cdn/fonts/lato/lato_n4.c86cddcf8b15d564761aaa71b6201ea326f3648b.woff2?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=361003dad86ac143ca9dcd8e77fe9ef05137bde8b2f7843991a77d3f69134baa") format("woff2"),
+        url("//dailypaperclothing.com/cdn/fonts/lato/lato_n4.e0ee1e2c008a0f429542630edf70be01045ac5e9.woff?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=88f5c6271a50ec79656d65ee1618bd18acac7cde2107499497827867108b6552") format("woff");
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("//dailypaperclothing.com/cdn/fonts/lato/lato_n7.f0037142450bd729bdf6ba826f5fdcd80f2787ba.woff2?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=913dd90e382bac023ca6d13e5d3f2f67835736cc684578e0f619ad8c51a16472") format("woff2"),
+        url("//dailypaperclothing.com/cdn/fonts/lato/lato_n7.50161a3d4f05d049b7407d86c5a8834e4d6e29bf.woff?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=113a07c3f44eb3211d0e97e5067a3c2c64a27e58cb2f5345cfa2822ce436f14b") format("woff");
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: url("//dailypaperclothing.com/cdn/fonts/lato/lato_i4.7307831c0d06d264a76f2f7310f8a29d0507d6d0.woff2?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=c6507f9b3a867db8a195ce48b10d29ae4e045aaa2d14b3d9bd8714b0a6e01ef3") format("woff2"),
+        url("//dailypaperclothing.com/cdn/fonts/lato/lato_i4.fb695d0d68d5b174347edaf543726b1903b57796.woff?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=5efb435080fbad93ebdddba2da2c8ccb2a33bfeb0ea83198a8d03e6818d2f2a5") format("woff");
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+    src: url("//dailypaperclothing.com/cdn/fonts/lato/lato_i7.86965a52f2ddabac45abc106c3d0cc22ac7b57bb.woff2?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=85fc1402aaa24706ad4a17ab8d98c685940d134e3afd0e917f66309e223eec65") format("woff2"),
+        url("//dailypaperclothing.com/cdn/fonts/lato/lato_i7.34d7f5a12391e5532b516b8bb3974f4cc3ee25ae.woff?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=2764db1bfb7e49eef8dc4af71551c38006b5bd0a1f6ac80540ac0748adf02acb") format("woff");
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("//dailypaperclothing.com/cdn/fonts/lato/lato_n7.f0037142450bd729bdf6ba826f5fdcd80f2787ba.woff2?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=913dd90e382bac023ca6d13e5d3f2f67835736cc684578e0f619ad8c51a16472") format("woff2"),
+        url("//dailypaperclothing.com/cdn/fonts/lato/lato_n7.50161a3d4f05d049b7407d86c5a8834e4d6e29bf.woff?h1=ZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h2=dW5pdGUuZGFpbHlwYXBlcmNsb3RoaW5nLmNvbQ&h3=ZGFpbHktcGFwZXIuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=113a07c3f44eb3211d0e97e5067a3c2c64a27e58cb2f5345cfa2822ce436f14b") format("woff");
+}
+
+@font-face {
+    font-family: 'Oceanwide';
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/Oceanwide-Semibold.eot?v=80707960527255437341718108815);
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/Oceanwide-Semibold.eot?%23iefix&v=80707960527255437341718108815) format('embedded-opentype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/Oceanwide-Semibold.woff2?v=174948922410832439201718108815) format('woff2'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/Oceanwide-Semibold.woff?v=126145117977916097311718108815) format('woff'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/Oceanwide-Semibold.ttf?v=96025866245420030231718108815) format('truetype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/Oceanwide-Semibold.svg%23Oceanwide-Semibold?202317) format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oceanwide-Bold';
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold.eot?v=60596564828485582521718108815);
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold.eot?%23iefix&v=60596564828485582521718108815) format('embedded-opentype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold.woff2?v=113270075399323286001718108815) format('woff2'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold.woff?v=93049682174523766621718108815) format('woff'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold.ttf?v=68158032096130497791718108815) format('truetype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold.svg%23youworkforthem?202317) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oceanwide-BoldOblique';
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold-oblique.eot?v=131145871753896424631718108815);
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold-oblique.eot?%23iefix&v=131145871753896424631718108815) format('embedded-opentype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold-oblique.woff2?v=121186490018959583201718108815) format('woff2'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold-oblique.woff?v=58430011616370836731718108815) format('woff'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold-oblique.ttf?v=125985176384791687121718108815) format('truetype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-bold-oblique.svg%23youworkforthem?202317) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oceanwide-Light';
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light.eot?v=148579980311215338721718108815) format('embedded-opentype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light.woff2?v=158837029869061261571718108815) format('woff2'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light.woff?v=7035949225279570441718108815) format('woff'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light.ttf?v=76753128286315890871718108815) format('truetype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light.svg%23youworkforthem?202317) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oceanwide-LightOblique';
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light-oblique.eot?v=127110165713715389201718108815);
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light-oblique.eot?%23iefix&v=127110165713715389201718108815) format('embedded-opentype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light-oblique.woff2?v=136296022671564937981718108815) format('woff2'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light-oblique.woff?v=3054073344862151231718108815) format('woff'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light-oblique.ttf?v=131614947989190179011718108815) format('truetype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-light-oblique.svg%23youworkforthem?202317) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oceanwide-Oblique';
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-oblique.eot?v=34082058110254852521718108815);
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-oblique.eot?%23iefix&v=34082058110254852521718108815) format('embedded-opentype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-oblique.woff2?v=20753284044120860901718108815) format('woff2'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-oblique.woff?v=78478695878918821941718108815) format('woff'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-oblique.ttf?v=85131975900647676141718108815) format('truetype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-oblique.svg%23youworkforthem?202317) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oceanwide-Regular';
+    src: url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-regular.eot?v=143828040388951593781718108815) format('embedded-opentype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-regular.woff2?v=178175861507996060961718108815) format('woff2'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-regular.woff?v=128354702997975408811718108815) format('woff'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-regular.ttf?v=43414679618551101501718108815) format('truetype'),
+        url(//dailypaperclothing.com/cdn/shop/t/580/assets/oceanwide-regular.svg%23youworkforthem?202317) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

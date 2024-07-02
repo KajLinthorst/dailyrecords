@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Records | Contact</title>
-    
-    <script src="js/core.js" defer></script>
     <link rel="stylesheet" href="css/contact.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="mainInfo">
-        <nav>
+        <nav class="navReal">
             <a class="logIcon" href="index.html">
                 <h2>DAILY RECORDS</h2>
             </a>
@@ -33,18 +29,27 @@
         </nav>
     </div>
 
-    <div class="contactPage">
-        <h1>Contact</h1>
-        <h2>Are you searching for contact? Here are our social media pages and email incase you want to give feedback and ask questions, or if you have run into an issue! </h2>
-        <ul>
-            <li class="listItem"><a href="https://www.instagram.com/dailyrecords">Instagram</a></li>
-            <li class="listItem"><a href="https://twitter.com/dailyrecords">Twitter</a></li>
-            <li class="listItem"><a href="https://www.tiktok.com/@dailyrecords">Tiktok</a></li>
-            <li class="listItem"><a href="https://www.youtube.com/dailyrecords">Youtube</a></li>
-            <li class="listItem"><a href="mailto:contact@dailyrecords.com">Email: contact@dailyrecords.com</a></li>
-        </ul>
-
-        </ul>
+    <div class="container">
+        <div class="contact-info">
+            <h1>Get in Touch</h1>
+            <p>Have a question or feedback? We'd love to hear from you!</p>
+            <ul>
+                <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/dailyrecords">Instagram</a></li>
+                <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/dailyrecords">Twitter</a></li>
+                <li><i class="fab fa-tiktok"></i> <a href="https://www.tiktok.com/@dailyrecords">TikTok</a></li>
+                <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/dailyrecords">YouTube</a></li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:contact@dailyrecords.com">contact@dailyrecords.com</a></li>
+            </ul>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </div>
+    <script src="https://kit.fontawesome.com/yourfontawesomekit.js"></script>
 </body>
 </html>

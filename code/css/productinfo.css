@@ -1,0 +1,175 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-size: 62.5%;
+    
+}
+
+.mainInfo {
+    height: 100vh;
+    background-color: #bebebe;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    height: 8vh;
+    width: 97.05vw;
+    font-size: 3.5rem;
+    padding-top: 0.5rem;
+    padding-left: 4.5rem;
+    background-color: black;
+    color: white;
+
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>a>h2 {
+    display: inline;
+    padding-right: 2rem;
+
+    font-family: 'Oceanwide', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.button-container {
+    display: inline-block;
+
+}
+
+.button-container a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+}
+
+
+
+.button-container a button {
+    border: none;
+    background: none;
+    padding: 1.4rem 1.5rem;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.button-container a :hover {
+    cursor: pointer;
+}
+
+.salePage {
+    width: 90vw;
+    height: 91.3vh;
+    background-color: rgb(227, 227, 227);
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.saleText{
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+    width: 50rem;
+
+
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}   
+
+.recordImg {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    padding-top: 4rem;
+}
+
+.recordImg>img {
+    width: 50rem;
+    height: 50rem;
+}
+
+.descText {
+    position: relative;
+    bottom: 0;
+}
+
+.productTitleTotal {
+    margin: 15rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300rem;
+}
+
+
+.productTitleTotal>h1 {
+    font-size: 5rem;
+    word-wrap: break-word;
+    font-family: 'Oceanwide', sans-serif;
+    font-weight: 700;
+}
+
+.productTitleTotal>h2 {
+    font-size: 3.5rem;
+    font-family: 'Oceanwide', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+    font-size: 5rem;
+    padding-top: 8rem;
+    transition: transform 0.3s ease;
+}
+
+.saleButton:hover+.price {
+    transform: scale(1.2);
+}
+
+
+.saleButton {
+    width: 15vw;
+    height: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    margin-top: 1.4rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(41, 150, 41);
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 1rem;
+    right: -0.5rem;
+}
+
+.saleButton:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.8);
+    filter: brightness(1.2);
+}

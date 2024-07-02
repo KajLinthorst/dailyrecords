@@ -63,6 +63,8 @@ nav>a>h2 {
     font-weight: 700;
     text-decoration: none;
 }
+
+
 .button-container {
     display: inline-block;
 }
@@ -100,7 +102,9 @@ nav>a>h2 {
     padding: 1rem;
     margin-left: -17rem;
     display: inline-block;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
 }
+
 
 .recordStock {
     width: 65vw;
@@ -117,7 +121,8 @@ li {
 }
 
 .saleCard {
-    width: 20vw;
+    width: 100%;
+    max-width: 20vw;
     border-radius: 1rem;
     transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
     position: relative;
@@ -178,7 +183,7 @@ li {
 }
 
 .salePic {
-    max-width: 40vw;
+    max-width: 100%;
     max-height: 37.5vh;
 
     display: flex;
@@ -284,3 +289,13 @@ li {
     margin: 3px;
 }
 
+.sale-pic {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 60rem) {
+    .sale-pic {
+        max-width: 30%;
+    }
+}
